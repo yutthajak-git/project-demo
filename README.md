@@ -36,8 +36,6 @@ bun install
 # ต้องเป็น Port เดียวกับที่ตั้งค่าใน Backend (แนะนำ 3001)
 NEXT_PUBLIC_API_URL=http://localhost:3001
 
-# ตัวอย่างสำหรับรัน Production
-# NEXT_PUBLIC_API_URL=[https://api.yourdomain.com](https://api.yourdomain.com)
 ```
 
 # 4. Run Development Server
