@@ -1,9 +1,9 @@
-import LandingPage from "./components/LandingPage";
+import TecherLogin from "@/app/components/TecherLogin";
 
 const Page = () => {
     return (
         <div>
-            <LandingPage />
+            <TecherLogin />
         </div>
     );
 };

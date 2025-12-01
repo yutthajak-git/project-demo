@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Navbar */
+.navbar-container {
+    @apply bg-white shadow-md sticky top-0 z-10;
+}
+.items-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+.items {
+    @apply flex justify-between h-20;
+}
+
+/* logo */
+.logo-header {
+    @apply flex items-center;
+}
+.logo-items {
+    @apply flex shrink-0 items-center gap-3;
+}
+.item-icon {
+    @apply w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center text-white shadow-lg;
+}
+.item-title{
+    @apply flex flex-col
+}
+.item-maintitle{
+    @apply font-bold text-xl text-pink-700 tracking-tight leading-none
+}
+.item-subtitle {
+    @apply text-gray-500 text-xs
+}
+
+/* login,home */
+.menu-section {
+    @apply hidden md:flex items-center space-x-6;
+}
+.home-menu {
+    @apply text-gray-600 hover:text-pink-600 font-medium transition-colors;
+}
+.login-menu {
+    @apply text-white bg-pink-600 hover:bg-pink-700 px-6 py-2 rounded-full font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+}

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.footer {
+    /* เอา fixed ออก และใช้ mt-auto เพื่อให้ flexbox ดันลงล่างสุดตามธรรมชาติ */
+    @apply bg-white border-t border-gray-200 py-6 mt-auto;
+}
+
+.footer-title {
+    @apply max-w-7xl mx-auto px-4 text-center text-sm text-gray-500;
+}

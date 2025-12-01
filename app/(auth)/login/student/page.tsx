@@ -1,9 +1,9 @@
-import LandingPage from "./components/LandingPage";
+import StudentLogin from "@/app/components/StudentLogin";
 
 const Page = () => {
     return (
         <div>
-            <LandingPage />
+            <StudentLogin />
         </div>
     );
 };

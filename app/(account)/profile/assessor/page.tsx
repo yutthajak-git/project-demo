@@ -1,9 +1,9 @@
-import LandingPage from "./components/LandingPage";
+import TeacherForm from "@/app/components/TeacherForm";
 
 const Page = () => {
     return (
         <div>
-            <LandingPage />
+            <TeacherForm />
         </div>
     );
 };

@@ -1,9 +1,9 @@
-import LandingPage from "./components/LandingPage";
+import Role from "@/app/components/Role";
 
 const Page = () => {
     return (
         <div>
-            <LandingPage />
+            <Role />
         </div>
     );
 };
